@@ -1,0 +1,757 @@
+{
+  "name": "gui",
+  "groups": [
+    {
+      "name": "hud_gui",
+      "groups": [
+        {
+          "name": "Watermark",
+          "settings": {
+            "name": "Watermark",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 102.89001,
+            "height": 9.009,
+            "pos_x": 1.0,
+            "pos_y": 349.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "Armor",
+          "settings": {
+            "name": "Armor",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 94.53001,
+            "height": 80.0,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "classic": false,
+            "armorcount": true,
+            "countelytras": false,
+            "durability_percentage": true,
+            "durability_bar": false
+          }
+        },
+        {
+          "name": "Client",
+          "settings": {
+            "name": "Client",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 354.0,
+            "pos_y": 20.5,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Combat",
+          "settings": {
+            "name": "Combat",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 489.0,
+            "pos_y": 38.5,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Player",
+          "settings": {
+            "name": "Player",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 180.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "World",
+          "settings": {
+            "name": "World",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 270.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Misc",
+          "settings": {
+            "name": "Misc",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 360.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "BaritoneProcess",
+          "settings": {
+            "name": "BaritoneProcess",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 18.018,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "Biome",
+          "settings": {
+            "name": "Biome",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 48.38,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "CPS",
+          "settings": {
+            "name": "CPS",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 40.82,
+            "height": 9.009,
+            "pos_x": 597.5,
+            "pos_y": 373.991,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "average_speed_time": 2.0
+          }
+        },
+        {
+          "name": "CombatItemCount",
+          "settings": {
+            "name": "CombatItemCount",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 100.0,
+            "height": 20.0,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "arrow": true,
+            "crystal": true,
+            "gapple": true,
+            "totem": true,
+            "xp_bottle": true,
+            "pearl": false,
+            "chorus_fruit": false,
+            "show_icon": true,
+            "horizontal": true
+          }
+        },
+        {
+          "name": "Coordinate",
+          "settings": {
+            "name": "Coordinate",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 121.97,
+            "height": 20.018,
+            "pos_x": 1.0,
+            "pos_y": 362.982,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "show_x": true,
+            "show_y": true,
+            "show_z": true,
+            "show_nether/overworld": true,
+            "decimal_places": 1,
+            "thousands_separator": false
+          }
+        },
+        {
+          "name": "CrystalDamage",
+          "settings": {
+            "name": "CrystalDamage",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 71.990005,
+            "height": 20.018,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "Direction",
+          "settings": {
+            "name": "Direction",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 42.2,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "Durability",
+          "settings": {
+            "name": "Durability",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 18.018,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "show_item_name": true,
+            "show_offhand": false,
+            "show_percentage": true
+          }
+        },
+        {
+          "name": "EntityList",
+          "settings": {
+            "name": "EntityList",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 68.3,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "items": true,
+            "passive_mobs": true,
+            "neutral_mobs": true,
+            "hostile_mobs": true,
+            "max_entries": 8,
+            "range": 64
+          }
+        },
+        {
+          "name": "FPS",
+          "settings": {
+            "name": "FPS",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 69.68,
+            "height": 9.009,
+            "pos_x": 608.0,
+            "pos_y": 363.491,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "show_average": true,
+            "show_min": false,
+            "show_max": false
+          }
+        },
+        {
+          "name": "InventoryViewer",
+          "settings": {
+            "name": "InventoryViewer",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 162.0,
+            "height": 54.0,
+            "pos_x": 1.0,
+            "pos_y": 88.5,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "minecraft_texture": false,
+            "show_icon": false,
+            "icon_scale": 0.5,
+            "border": true,
+            "border_color": {
+              "r": 111,
+              "g": 166,
+              "b": 222,
+              "a": 255
+            },
+            "background": true,
+            "background_color": {
+              "r": 30,
+              "g": 36,
+              "b": 48,
+              "a": 127
+            }
+          }
+        },
+        {
+          "name": "MemoryUsage",
+          "settings": {
+            "name": "MemoryUsage",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 36.41,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "show_allocated": false,
+            "show_max": false
+          }
+        },
+        {
+          "name": "ModuleList",
+          "settings": {
+            "name": "ModuleList",
+            "visible": true,
+            "docking_h": "RIGHT",
+            "docking_v": "TOP",
+            "width": 57.106,
+            "height": 269.72055,
+            "pos_x": -1.0000191,
+            "pos_y": 30.5,
+            "minimized": false,
+            "bind": "None",
+            "scale": 0.7,
+            "default": false,
+            "sorting_mode": "LENGTH",
+            "show_invisible": false,
+            "rainbow": true,
+            "rainbow_length": 2.0,
+            "indexed_hue": 0.5,
+            "primary_color": {
+              "r": 155,
+              "g": 144,
+              "b": 255,
+              "a": 255
+            },
+            "secondary_color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            }
+          }
+        },
+        {
+          "name": "Ping",
+          "settings": {
+            "name": "Ping",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 33.56,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "PlayerModel",
+          "settings": {
+            "name": "PlayerModel",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 50.0,
+            "height": 80.0,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "reset_delay": 100,
+            "emulate_pitch": true,
+            "emulate_yaw": false
+          }
+        },
+        {
+          "name": "PlayerSpeed",
+          "settings": {
+            "name": "PlayerSpeed",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 39.02,
+            "height": 9.009,
+            "pos_x": 642.98,
+            "pos_y": 373.991,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "speed_unit": "MPS",
+            "average_speed_ticks": 10
+          }
+        },
+        {
+          "name": "2B2T Queue",
+          "settings": {
+            "name": "2B2T Queue",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 162.89,
+            "height": 20.018,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "has_shown_warning": true,
+            "show": "BOTH"
+          }
+        },
+        {
+          "name": "Radar",
+          "settings": {
+            "name": "Radar",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 97.5,
+            "height": 97.5,
+            "pos_x": 1.0,
+            "pos_y": 1.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 0.75,
+            "default": false,
+            "players": true,
+            "passive_mobs": false,
+            "neutral_mobs": false,
+            "hostile_mobs": false,
+            "invisible_entities": true
+          }
+        },
+        {
+          "name": "Rotation",
+          "settings": {
+            "name": "Rotation",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 96.170006,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "ServerBrand",
+          "settings": {
+            "name": "ServerBrand",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 82.670006,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "TPS",
+          "settings": {
+            "name": "TPS",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 41.75,
+            "height": 9.009,
+            "pos_x": 551.25,
+            "pos_y": 373.991,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "use_milliseconds": false
+          }
+        },
+        {
+          "name": "TextRadar",
+          "settings": {
+            "name": "TextRadar",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 18.018,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "health": true,
+            "ping": false,
+            "combat_potion": true,
+            "distance": true,
+            "friend": true,
+            "max_entries": 8,
+            "range": 64
+          }
+        },
+        {
+          "name": "Time",
+          "settings": {
+            "name": "Time",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 42.140003,
+            "height": 20.018,
+            "pos_x": 639.86,
+            "pos_y": 338.5,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "show_date": true,
+            "show_time": true,
+            "date_format": "DDMMYY",
+            "time_format": "HHMM",
+            "time_unit": "H12"
+          }
+        },
+        {
+          "name": "TimerSpeed",
+          "settings": {
+            "name": "TimerSpeed",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 28.310001,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false
+          }
+        },
+        {
+          "name": "Username",
+          "settings": {
+            "name": "Username",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 94.100006,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "prefix": "Welcome",
+            "suffix": ""
+          }
+        },
+        {
+          "name": "WorldTime",
+          "settings": {
+            "name": "WorldTime",
+            "visible": false,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 79.64,
+            "height": 9.009,
+            "pos_x": 20.0,
+            "pos_y": 20.0,
+            "minimized": false,
+            "bind": "None",
+            "scale": 1.0,
+            "default": false,
+            "display_mode": "H24",
+            "from_midnight": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "click_gui",
+      "groups": [
+        {
+          "name": "Combat",
+          "settings": {
+            "name": "Combat",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 89.0,
+            "height": 300.0,
+            "pos_x": 1.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Movement",
+          "settings": {
+            "name": "Movement",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 90.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Misc",
+          "settings": {
+            "name": "Misc",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 180.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Render",
+          "settings": {
+            "name": "Render",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 270.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Player",
+          "settings": {
+            "name": "Player",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 360.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Chat",
+          "settings": {
+            "name": "Chat",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 450.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        },
+        {
+          "name": "Client",
+          "settings": {
+            "name": "Client",
+            "visible": true,
+            "docking_h": "LEFT",
+            "docking_v": "TOP",
+            "width": 90.0,
+            "height": 300.0,
+            "pos_x": 540.0,
+            "pos_y": 0.0,
+            "minimized": false
+          }
+        }
+      ]
+    }
+  ]
+}

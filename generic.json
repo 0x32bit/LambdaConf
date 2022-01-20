@@ -1,0 +1,22 @@
+{
+  "name": "generic",
+  "groups": [
+    {
+      "name": "Configurations",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "auto_saving": true,
+        "saving_feedback": false,
+        "interval": 10,
+        "server_preset": false,
+        "gui_preset": "default",
+        "module_preset": "default"
+      }
+    }
+  ]
+}
