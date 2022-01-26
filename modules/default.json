@@ -2,7 +2,7 @@
   "name": "modules",
   "groups": [
     {
-      "name": "KamiMoji",
+      "name": "LambdaMoji",
       "settings": {
         "bind": "None",
         "enabled": false,
@@ -20,8 +20,8 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
-        "bow_only": true,
+        "clicks": 1,
+        "bow_only": false,
         "auto_swap": false
       }
     },
@@ -51,11 +51,11 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "action_delay": 50,
         "variation": 25,
         "auto_reply": true,
-        "reply_message": "I am AFK with KAMI Blue!",
+        "reply_message": "I am AFK with Lambda!",
         "swing": true,
         "jump": true,
         "turn": true,
@@ -77,23 +77,6 @@
       }
     },
     {
-      "name": "AntiBot",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 2,
-        "tab_list": true,
-        "ping": true,
-        "hp": true,
-        "sleeping": false,
-        "hover_on_top": true,
-        "ticks_exists": 200
-      }
-    },
-    {
       "name": "AntiDeathScreen",
       "settings": {
         "bind": "None",
@@ -101,7 +84,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
+        "clicks": 0
       }
     },
     {
@@ -112,19 +95,8 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "button_presses": 3
-      }
-    },
-    {
-      "name": "AntiFog",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1
       }
     },
     {
@@ -146,18 +118,18 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
+        "clicks": 0
       }
     },
     {
       "name": "AntiHunger",
       "settings": {
         "bind": "None",
-        "enabled": true,
+        "enabled": false,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "cancel_movement_state": true
       }
     },
@@ -169,30 +141,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
-      }
-    },
-    {
-      "name": "AntiOverlay",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "hurt_camera": true,
-        "fire": true,
-        "water": true,
-        "blocks": true,
-        "portals": true,
-        "blindness": true,
-        "nausea": true,
-        "totems": true,
-        "vignette": false,
-        "helmet": true,
-        "tutorial": true,
-        "potion_icons": false
+        "clicks": 0
       }
     },
     {
@@ -237,24 +186,6 @@
       }
     },
     {
-      "name": "ArmorHide",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "players": false,
-        "armour_stands": true,
-        "mobs": true,
-        "helmet": false,
-        "chestplate": false,
-        "leggings": false,
-        "boots": false
-      }
-    },
-    {
       "name": "AutoArmor",
       "settings": {
         "bind": "None",
@@ -262,7 +193,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 1,
         "delay": 5
       }
     },
@@ -274,9 +205,9 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "detect_mode": "HEALTH",
-        "message_mode": "GG",
+        "message_mode": "ONTOP",
         "custom_text": "Unchanged"
       }
     },
@@ -288,7 +219,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "below_hunger": 15,
         "below_health": 10,
         "fire_prot": false,
@@ -345,9 +276,9 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "disable_mode": "ALWAYS",
-        "health": true,
+        "health": false,
         "crystals": false,
         "min_health": 10,
         "creepers": true,
@@ -382,23 +313,6 @@
       }
     },
     {
-      "name": "AutoMine",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 3,
-        "manual": false,
-        "iron": false,
-        "diamond": false,
-        "gold": false,
-        "coal": true,
-        "logs": false
-      }
-    },
-    {
       "name": "AutoNametag",
       "settings": {
         "bind": "None",
@@ -406,7 +320,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "mode": "ANY",
         "range": 3.5,
         "debug": false
@@ -420,13 +334,11 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "fill_mode": "TARGET_STACKS",
         "search_shulker": false,
         "leave_empty_shulkers": true,
         "auto_refill": false,
-        "instant_mining": true,
-        "instant_mining_delay": 10,
         "refill_threshold": 32,
         "target_stacks": 1,
         "delay_ticks": 4,
@@ -442,7 +354,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "type": "TOTEM",
         "hp_threshold": 6.0,
         "bind_totem": "None",
@@ -465,8 +377,8 @@
         "check_crystal_aura_c": false,
         "priority": "INVENTORY",
         "switch_message": false,
-        "delay": 1,
-        "confirm_timeout": 3
+        "delay": 2,
+        "confirm_timeout": 5
       }
     },
     {
@@ -478,9 +390,9 @@
         "default": false,
         "priority_in_gui": 0,
         "clicks": 0,
-        "show_warnings": true,
-        "dimension_warning": true,
-        "delay": 30
+        "delay": 30,
+        "2b_check": true,
+        "command": "/queue main"
       }
     },
     {
@@ -491,7 +403,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "delay": 5.0
       }
     },
@@ -503,7 +415,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 1,
         "boats": true,
         "horse": true,
         "skeleton_horse": true,
@@ -516,19 +428,6 @@
       }
     },
     {
-      "name": "AutoReply",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "custom_message": false,
-        "custom_text": "unchanged"
-      }
-    },
-    {
       "name": "AutoRespawn",
       "settings": {
         "bind": "None",
@@ -536,7 +435,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "respawn": true,
         "save_death_coords": true,
         "anti_glitch_screen": true
@@ -578,7 +477,7 @@
       "name": "AutoTool",
       "settings": {
         "bind": "None",
-        "enabled": true,
+        "enabled": false,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
@@ -597,9 +496,9 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 11,
+        "clicks": 0,
         "trap_mode": "FULL_TRAP",
-        "self_trap": false,
+        "self_trap": true,
         "bind_self_trap": "None",
         "auto_disable": true,
         "strict_direction": false,
@@ -609,15 +508,15 @@
     {
       "name": "AutoTunnel",
       "settings": {
-        "bind": "None",
+        "bind": "K",
         "enabled": false,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
         "clicks": 5,
         "back_fill": false,
-        "height": 2,
-        "width": 1,
+        "height": 4,
+        "width": 4,
         "disable_on_disconnect": true
       }
     },
@@ -629,9 +528,23 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 13,
+        "clicks": 2,
         "direction": "BARITONE",
         "disable_on_disconnect": true
+      }
+    },
+    {
+      "name": "Avoid",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "fire": true,
+        "cactus": true,
+        "unloaded_chunks": true
       }
     },
     {
@@ -690,8 +603,7 @@
         "refill_delay": 2,
         "min_damage": 10.0,
         "max_self_damage": 4.0,
-        "range": 5.0,
-        "wall_range": 2.5
+        "range": 5.0
       }
     },
     {
@@ -716,7 +628,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0
+        "clicks": 1
       }
     },
     {
@@ -745,15 +657,19 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "speed": 1.0,
-        "anti_stuck": true,
-        "glide_speed": 0.1,
         "up_speed": 1.0,
+        "glide_speed": 0.1,
+        "anti_stuck": true,
+        "remount": true,
+        "anti_force_look": true,
+        "force_interact": true,
+        "teleport_spoof": false,
+        "cancel_player_packets": false,
+        "anti_desync": false,
         "boat_opacity": 1.0,
-        "boat_scale": 1.0,
-        "force_interact": false,
-        "interact_delay": 2
+        "boat_scale": 1.0
       }
     },
     {
@@ -764,7 +680,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 0,
         "mode": "STACK",
         "scale": 1.0,
         "censor": false
@@ -778,7 +694,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 4,
+        "clicks": 0,
         "clear": false,
         "while_disabled": false,
         "smooth_factor": 5.0,
@@ -802,7 +718,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 0,
         "esp_self": true,
         "warn_self": false,
         "obsidian_only": false,
@@ -815,9 +731,12 @@
         "filled": true,
         "outline": true,
         "tracer": false,
-        "red": 255,
-        "green": 255,
-        "blue": 255,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
         "filled_alpha": 31,
         "outline_alpha": 200,
         "tracer_alpha": 255,
@@ -832,7 +751,8 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
+        "clicks": 0,
+        "distance": 4.0
       }
     },
     {
@@ -847,6 +767,49 @@
       }
     },
     {
+      "name": "CustomFont",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "font_name": "Fira Sans",
+        "size": 1.0,
+        "shadow": false,
+        "gap": 0.0,
+        "line_space": 0.0,
+        "baseline_offset": 0.0,
+        "lod_bias": 0.0
+      }
+    },
+    {
+      "name": "ClickGUI",
+      "settings": {
+        "bind": "Y",
+        "enabled": false,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 102,
+        "scale": 100,
+        "corner_radius": 2.0,
+        "blur": 0.0,
+        "window_outline": false,
+        "button_outline": false,
+        "outline_width": 2.5,
+        "margin": 0.0,
+        "darkness": 0.25,
+        "fade_in_time": 0.25,
+        "fade_out_time": 0.1,
+        "show_modified_in_bold": false,
+        "reset_positions": false,
+        "reset_scale": false,
+        "sort_by": "ALPHABETICALLY"
+      }
+    },
+    {
       "name": "Chams",
       "settings": {
         "bind": "None",
@@ -854,7 +817,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "page": "ENTITY_TYPE",
         "self": false,
         "all_entities": false,
@@ -862,6 +825,7 @@
         "arrows": false,
         "throwable": false,
         "items": false,
+        "primed_tnt": false,
         "crystals": false,
         "players": true,
         "friends": false,
@@ -875,25 +839,12 @@
         "lightning": false,
         "custom_color": false,
         "rainbow": false,
-        "red": 255,
-        "green": 255,
-        "blue": 255,
-        "alpha": 160
-      }
-    },
-    {
-      "name": "ChatEncryption",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "commands": false,
-        "decrypt_own": true,
-        "key_setting": "xh5ZBI4bmQHhRHk23N9kS vs23FNn1V1",
-        "delimiter": "%"
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 160
+        }
       }
     },
     {
@@ -918,7 +869,7 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 2,
         "message_speed_limit": 0.5,
         "max_message_queue_size": 50
       }
@@ -931,7 +882,7 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "color": "GRAY",
         "separator": "ARROWS",
         "time_format": "HHMM",
@@ -946,56 +897,12 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "mode": "MANUAL",
         "moving_mode": "QUICK_MOVE",
         "ignores_eject_item": false,
         "delay": 250,
         "only_shulkers": false
-      }
-    },
-    {
-      "name": "CleanGUI",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "inventory": true,
-        "chat": false
-      }
-    },
-    {
-      "name": "ClickGUI",
-      "settings": {
-        "bind": "Y",
-        "enabled": false,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 293,
-        "scale": 100,
-        "radius": 4.0,
-        "blur": 0.0,
-        "darkness": 0.25,
-        "fade_in_time": 0.25,
-        "fade_out_time": 0.1,
-        "show_modified_in_bold": false,
-        "reset_positions": false,
-        "sort_by": "ALPHABETICALLY"
-      }
-    },
-    {
-      "name": "ColorSign",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1
       }
     },
     {
@@ -1049,14 +956,33 @@
       }
     },
     {
-      "name": "ConsoleSpam",
+      "name": "ContainerPreview",
       "settings": {
         "bind": "None",
         "enabled": false,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0
+        "clicks": 0,
+        "use_custom_font": false,
+        "background_color": {
+          "r": 16,
+          "g": 0,
+          "b": 16,
+          "a": 255
+        },
+        "top_border_color": {
+          "r": 144,
+          "g": 101,
+          "b": 237,
+          "a": 54
+        },
+        "bottom_border_color": {
+          "r": 40,
+          "g": 0,
+          "b": 127,
+          "a": 80
+        }
       }
     },
     {
@@ -1081,7 +1007,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "mode": "PACKET",
         "jump_motion": 0.25,
         "attack_fall_distance": 0.1
@@ -1091,11 +1017,11 @@
       "name": "CrystalAura",
       "settings": {
         "bind": "C",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 148,
+        "clicks": 42,
         "page": "GENERAL",
         "no_suicide": 0.0,
         "rotation_tolerance": 50,
@@ -1115,9 +1041,9 @@
         "max_self_damage_place": 3.5,
         "place_offset": 1.0,
         "max_crystal": 5,
-        "place_delay_mode": "MS",
+        "place_delay_mode": "TICKS",
         "place_delay_ticks": 1,
-        "place_delay_ms": 10,
+        "place_delay_ms": 30,
         "place_range": 4.25,
         "wall_place_range": 3.5,
         "explode": true,
@@ -1129,6 +1055,7 @@
         "swap_delay": 10,
         "hit_delay": 1,
         "hit_attempts": 4,
+        "retry_timeout": 1000,
         "explode_range": 5.0,
         "wall_explode_range": 5.0
       }
@@ -1141,7 +1068,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 1,
         "bind_manual_place": "None",
         "min_damage_inc": 2.0,
         "range": 4.0,
@@ -1156,7 +1083,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 0,
         "page": "DAMAGE_ESP",
         "damage_esp": false,
         "min_alpha": 0,
@@ -1173,461 +1100,15 @@
         "animation_scale": 1.0,
         "crystal_esp_range": 16.0,
         "color": {
-          "r": 155,
-          "g": 144,
-          "b": 255,
-          "a": 3
+          "r": 108,
+          "g": 0,
+          "b": 43,
+          "a": 2
         },
         "filled_alpha": 47,
         "outline_alpha": 127,
         "tracer_alpha": 200,
         "thickness": 2.0
-      }
-    },
-    {
-      "name": "CustomChat",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 2,
-        "message": "WEBSITE",
-        "separator": "NONE",
-        "commands": false,
-        "spammer": false,
-        "custom_text": "meowcode.pw"
-      }
-    },
-    {
-      "name": "CustomFont",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "font_name": "Lato",
-        "size": 1.0,
-        "gap": 0.0,
-        "line_space": 0.0,
-        "baseline_offset": 0.0,
-        "lod_bias": 0.0
-      }
-    },
-    {
-      "name": "DiscordNotifs",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "timeout": true,
-        "seconds": 10,
-        "timestamp": true,
-        "important_pings": false,
-        "connection_change": true,
-        "all_messages": false,
-        "dms": true,
-        "queue_position": true,
-        "restart": true,
-        "url": "unchanged",
-        "ping_id": "unchanged",
-        "avatar": "https://github.com/kami-blue/assets/raw/assets/assets/icons/kamiGithub.png"
-      }
-    },
-    {
-      "name": "DiscordRPC",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "line_1_left": "VERSION",
-        "line_1_right": "USERNAME",
-        "line_2_left": "SERVER_IP",
-        "line_2_right": "HEALTH",
-        "coords_confirm": false
-      }
-    },
-    {
-      "name": "ESP",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 3,
-        "page": "ENTITY_TYPE",
-        "all_entities": false,
-        "experience": false,
-        "arrows": false,
-        "throwable": false,
-        "items": true,
-        "players": true,
-        "friends": false,
-        "sleeping": false,
-        "mobs": true,
-        "passive_mobs": false,
-        "neutral_mobs": true,
-        "hostile_mobs": true,
-        "invisible": true,
-        "range": 32.0,
-        "mode": "SHADER",
-        "hide_original": false,
-        "filled": false,
-        "outline": true,
-        "red": 155,
-        "green": 144,
-        "blue": 255,
-        "filled_alpha": 63,
-        "outline_alpha": 255,
-        "blur_radius": 0.0,
-        "width": 2.0
-      }
-    },
-    {
-      "name": "ElytraFlight",
-      "settings": {
-        "bind": "V",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 21,
-        "mode": "CONTROL",
-        "page": "MODE_SETTINGS",
-        "durability_warning": true,
-        "warning_threshold": 5,
-        "auto_landing": false,
-        "easy_takeoff": true,
-        "takeoff_timer": true,
-        "high_ping_optimize": false,
-        "min_takeoff_height": 1.0,
-        "start_speed": 100,
-        "accelerate_time": 20.0,
-        "spoof_pitch": true,
-        "block_interact": false,
-        "forward_pitch": 0,
-        "elytra_sounds": true,
-        "swing_speed": 2.0,
-        "swing_amount": 0.8,
-        "speed_b": 1.0,
-        "up_speed_b": 1.0,
-        "down_speed_b": 1.0,
-        "base_boost_pitch": 20,
-        "ncp_strict": true,
-        "legacy_look_boost": false,
-        "auto_control_altitude": false,
-        "dynamic_down_speed": false,
-        "speed_c": 1.8,
-        "fall_speed_c": 3.0E-14,
-        "down_speed_c": 1.0,
-        "dynamic_down_speed_c": 2.0,
-        "speed_cr": 1.8,
-        "fall_speed_cr": 1.0E-5,
-        "up_speed_cr": 1.0,
-        "down_speed_cr": 1.0,
-        "speed_p": 1.8,
-        "fall_speed_p": 1.0E-5,
-        "down_speed_p": 1.0
-      }
-    },
-    {
-      "name": "ElytraReplace",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "inventory": false,
-        "auto_chest": false,
-        "elytraflight_check": true,
-        "missing_warning": false,
-        "play_sound": false,
-        "warning_threshold": 2,
-        "damage_threshold": 7
-      }
-    },
-    {
-      "name": "EndTeleport",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "confirm": false
-      }
-    },
-    {
-      "name": "EntitySpeed",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "speed": 1.0,
-        "anti_stuck": true,
-        "flight": false,
-        "glide_speed": 0.1,
-        "up_speed": 1.0
-      }
-    },
-    {
-      "name": "EntityTools",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "mode": "INFO"
-      }
-    },
-    {
-      "name": "ExtraChatHistory",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "max_message": 1000
-      }
-    },
-    {
-      "name": "ExtraTab",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "max_players": 265
-      }
-    },
-    {
-      "name": "EyeFinder",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 2,
-        "page": "ENTITY_TYPE",
-        "players": true,
-        "friends": false,
-        "sleeping": false,
-        "mobs": true,
-        "passive_mobs": false,
-        "neutral_mobs": true,
-        "hostile_mobs": true,
-        "invisible": true,
-        "range": 64,
-        "color": {
-          "r": 155,
-          "g": 144,
-          "b": 255,
-          "a": 200
-        },
-        "thickness": 2.0
-      }
-    },
-    {
-      "name": "FakeGameMode",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "mode": "CREATIVE"
-      }
-    },
-    {
-      "name": "FakePlayer",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "copy_inventory": true,
-        "copy_potions": true,
-        "max_armor": false,
-        "gapple_effects": false,
-        "player_name": "Player"
-      }
-    },
-    {
-      "name": "FakeVanillaClient",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1
-      }
-    },
-    {
-      "name": "FancyChat",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "uwu": true,
-        "1337": false,
-        "mock": false,
-        "\u003e": false,
-        "`": false,
-        "random_case": true,
-        "commands": false,
-        "spammer": false
-      }
-    },
-    {
-      "name": "FastBreak",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 2,
-        "break_delay": 0,
-        "packet_mine": true,
-        "sneak_trigger": true,
-        "more_packets": false,
-        "spam_delay": 4
-      }
-    },
-    {
-      "name": "FastFall",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "mode": "MOTION",
-        "fall_speed": 6.0,
-        "max_fall_distance": 2
-      }
-    },
-    {
-      "name": "FastUse",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 2,
-        "delay": 0,
-        "blocks": false,
-        "all_items": false,
-        "exp_bottles": true,
-        "end_crystals": true,
-        "fireworks": false,
-        "bow": true,
-        "bow_charge": 0,
-        "charge_variation": 4
-      }
-    },
-    {
-      "name": "Flight",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 4,
-        "mode": "PACKET",
-        "speed": 3.4,
-        "glide_speed": 0.179
-      }
-    },
-    {
-      "name": "FormatChat",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0
-      }
-    },
-    {
-      "name": "Freecam",
-      "settings": {
-        "bind": "Lmenu",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 446,
-        "flight_mode": "CREATIVE",
-        "horizontal_speed": 9.0,
-        "vertical_speed": 9.0,
-        "auto_rotate": false,
-        "arrow_key_move": true,
-        "disconnect_disable": true,
-        "left_click_come": false,
-        "relative": false
-      }
-    },
-    {
-      "name": "FriendHighlight",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 0,
-        "bold": true,
-        "color": "GRAY",
-        "sound": true
-      }
-    },
-    {
-      "name": "FullBright",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 7,
-        "gamma": 12.0,
-        "transition_length": 3.0,
-        "old_value": 1.0
       }
     },
     {
@@ -1667,7 +1148,39 @@
       }
     },
     {
-      "name": "HoleESP",
+      "name": "CustomChat",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "message": "WEBSITE",
+        "separator": "NONE",
+        "commands": false,
+        "spammer": false,
+        "custom_text": "meowcode.pw"
+      }
+    },
+    {
+      "name": "DiscordRPC",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 2,
+        "line_1_left": "VERSION",
+        "line_1_right": "VERSION",
+        "line_2_left": "SERVER_IP",
+        "line_2_right": "HEALTH",
+        "coords_confirm": false
+      }
+    },
+    {
+      "name": "ESP",
       "settings": {
         "bind": "None",
         "enabled": false,
@@ -1675,6 +1188,362 @@
         "default": false,
         "priority_in_gui": 0,
         "clicks": 2,
+        "page": "ENTITY_TYPE",
+        "all_entities": false,
+        "experience": false,
+        "arrows": false,
+        "throwable": false,
+        "items": true,
+        "players": true,
+        "friends": false,
+        "sleeping": false,
+        "mobs": true,
+        "passive_mobs": false,
+        "neutral_mobs": true,
+        "hostile_mobs": true,
+        "invisible": true,
+        "range": 32.0,
+        "mode": "SHADER",
+        "color": {
+          "r": 108,
+          "g": 0,
+          "b": 43,
+          "a": 255
+        },
+        "hide_original": false,
+        "filled": false,
+        "outline": true,
+        "filled_alpha": 63,
+        "outline_alpha": 255,
+        "blur_radius": 0.0,
+        "width": 2.0
+      }
+    },
+    {
+      "name": "ElytraFix",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0
+      }
+    },
+    {
+      "name": "ElytraFlight",
+      "settings": {
+        "bind": "V",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 244,
+        "mode": "CONTROL",
+        "page": "MODE_SETTINGS",
+        "durability_warning": true,
+        "warning_threshold": 5,
+        "auto_landing": false,
+        "easy_takeoff": true,
+        "takeoff_timer": true,
+        "high_ping_optimize": false,
+        "min_takeoff_height": 0.5,
+        "start_speed": 100,
+        "accelerate_time": 0.0,
+        "spoof_pitch": true,
+        "block_interact": false,
+        "forward_pitch": 0,
+        "elytra_sounds": true,
+        "swing_speed": 1.0,
+        "swing_amount": 0.8,
+        "speed_b": 1.0,
+        "up_speed_b": 1.0,
+        "down_speed_b": 1.0,
+        "base_boost_pitch": 35,
+        "ncp_strict": true,
+        "legacy_look_boost": false,
+        "auto_control_altitude": false,
+        "dynamic_down_speed": false,
+        "speed_c": 2.0,
+        "fall_speed_c": 3.0E-14,
+        "down_speed_c": 1.0,
+        "dynamic_down_speed_c": 2.0,
+        "speed_cr": 1.8,
+        "fall_speed_cr": 1.0E-5,
+        "up_speed_cr": 1.0,
+        "down_speed_cr": 1.0,
+        "speed_p": 1.8,
+        "fall_speed_p": 1.0E-5,
+        "down_speed_p": 1.0
+      }
+    },
+    {
+      "name": "ElytraReplace",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "inventory": false,
+        "auto_chest": false,
+        "elytraflight_check": true,
+        "missing_warning": false,
+        "play_sound": false,
+        "warning_threshold": 2,
+        "damage_threshold": 7
+      }
+    },
+    {
+      "name": "EntitySpeed",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "speed": 1.0,
+        "anti_stuck": true,
+        "flight": false,
+        "glide_speed": 0.1,
+        "up_speed": 1.0
+      }
+    },
+    {
+      "name": "EntityTools",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "mode": "INFO"
+      }
+    },
+    {
+      "name": "ExtraChatHistory",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "max_message": 1000
+      }
+    },
+    {
+      "name": "ExtraTab",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "max_players": 265,
+        "highlight_friends": true,
+        "color": "GREEN"
+      }
+    },
+    {
+      "name": "EyeFinder",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "page": "ENTITY_TYPE",
+        "players": true,
+        "friends": false,
+        "sleeping": false,
+        "mobs": true,
+        "passive_mobs": false,
+        "neutral_mobs": true,
+        "hostile_mobs": true,
+        "invisible": true,
+        "range": 64,
+        "color": {
+          "r": 155,
+          "g": 144,
+          "b": 255,
+          "a": 200
+        },
+        "thickness": 2.0
+      }
+    },
+    {
+      "name": "FakeGameMode",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 3,
+        "mode": "CREATIVE"
+      }
+    },
+    {
+      "name": "FakePlayer",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "copy_inventory": true,
+        "copy_potions": true,
+        "max_armor": false,
+        "gapple_effects": false,
+        "player_name": "Player"
+      }
+    },
+    {
+      "name": "FancyChat",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "uwu": true,
+        "1337": false,
+        "mock": false,
+        "\u003e": false,
+        "`": false,
+        "random_case": true,
+        "commands": false,
+        "spammer": false
+      }
+    },
+    {
+      "name": "FastBreak",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "break_delay": 0,
+        "packet_mine": true,
+        "sneak_trigger": true,
+        "more_packets": false,
+        "spam_delay": 4
+      }
+    },
+    {
+      "name": "FastFall",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "mode": "MOTION",
+        "fall_speed": 6.0,
+        "max_fall_distance": 2
+      }
+    },
+    {
+      "name": "FastUse",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "delay": 0,
+        "blocks": true,
+        "all_items": false,
+        "exp_bottles": true,
+        "end_crystals": true,
+        "fireworks": true,
+        "bow": false,
+        "bow_charge": 0,
+        "charge_variation": 4
+      }
+    },
+    {
+      "name": "Flight",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "mode": "VANILLA",
+        "speed": 8.6,
+        "glide_speed": 0.127
+      }
+    },
+    {
+      "name": "Freecam",
+      "settings": {
+        "bind": "Lmenu",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 61,
+        "flight_mode": "CREATIVE",
+        "horizontal_speed": 9.0,
+        "vertical_speed": 9.0,
+        "auto_rotate": false,
+        "arrow_key_move": true,
+        "disconnect_disable": true,
+        "left_click_come": false,
+        "relative": false
+      }
+    },
+    {
+      "name": "FriendHighlight",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "bold": true,
+        "color": "GRAY",
+        "sound": true
+      }
+    },
+    {
+      "name": "FullBright",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
+        "gamma": 12.0,
+        "transition_length": 3.0,
+        "old_value": 0.0
+      }
+    },
+    {
+      "name": "HoleESP",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 0,
         "render_distance": 8,
         "filled": true,
         "outline": true,
@@ -1718,7 +1587,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "air_strafe": true,
         "disable_strafe": true,
         "range": 2.5
@@ -1728,11 +1597,11 @@
       "name": "Hud",
       "settings": {
         "bind": "None",
-        "enabled": true,
+        "enabled": false,
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 1,
         "hud_frame": false,
         "primary_color": {
           "r": 255,
@@ -1756,7 +1625,7 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 16
+        "clicks": 4
       }
     },
     {
@@ -1767,7 +1636,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "saturation_overlay": true,
         "food_hunger_overlay": true,
         "food_saturation_overlay": true
@@ -1781,7 +1650,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "slipperiness": 0.4
       }
     },
@@ -1789,11 +1658,11 @@
       "name": "InventoryManager",
       "settings": {
         "bind": "None",
-        "enabled": true,
+        "enabled": false,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "auto_refill": true,
         "building_mode": false,
         "building_block_id": 0,
@@ -1823,7 +1692,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "rotate_speed": 5,
         "sneak": false
       }
@@ -1839,9 +1708,9 @@
         "clicks": 1,
         "mode": "BOTH",
         "page": "POSITION",
-        "pos_x": 1.75,
+        "pos_x": 2.2,
         "pos_y": -0.575,
-        "pos_z": 2.025,
+        "pos_z": 2.225,
         "pos_x_right": 0.0,
         "pos_y_right": 0.0,
         "pos_z_right": 0.0,
@@ -1864,19 +1733,19 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 1,
         "mode": "SOLID"
       }
     },
     {
       "name": "KillAura",
       "settings": {
-        "bind": "None",
-        "enabled": false,
+        "bind": "R",
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 13,
         "mode": "COOLDOWN",
         "rotation_mode": "SPOOF",
         "attack_delay": 5,
@@ -1887,6 +1756,8 @@
         "prefer": "SWORD",
         "min_swap_health": 5.0,
         "swap_delay": 10,
+        "target_fireballs": false,
+        "force_viewlock": true,
         "range": 4.0
       }
     },
@@ -1898,7 +1769,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 1,
         "detect_rubber_band": true,
         "pause_baritone": true,
         "pause_elytra_takeoff": true,
@@ -1911,11 +1782,11 @@
       "name": "LoginMessage",
       "settings": {
         "bind": "None",
-        "enabled": true,
+        "enabled": false,
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "send_after_moving": false
       }
     },
@@ -1927,7 +1798,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "save_waypoint": true,
         "print_to_chat": true
       }
@@ -1940,10 +1811,23 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "show_name": true,
         "show_frame": true,
         "scale": 5.0
+      }
+    },
+    {
+      "name": "MenuShader",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "mode": "SET",
+        "shader": "CLOUDS"
       }
     },
     {
@@ -1954,7 +1838,7 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
+        "clicks": 0
       }
     },
     {
@@ -1976,7 +1860,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "speed": true,
         "jump": true,
         "health": true
@@ -1986,11 +1870,11 @@
       "name": "MountBypass",
       "settings": {
         "bind": "None",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0
+        "clicks": 1
       }
     },
     {
@@ -2001,7 +1885,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "page": "ENTITY_TYPE",
         "self": false,
         "experience": false,
@@ -2009,6 +1893,7 @@
         "players": true,
         "mobs": true,
         "passive_mobs": true,
+        "tamable_mobs": true,
         "neutral_mobs": true,
         "hostile_mobs": false,
         "invisible": true,
@@ -2026,30 +1911,13 @@
         "invert_hand": false,
         "armor": true,
         "count": true,
-        "dura": true,
+        "durability": true,
         "enchantment": false,
         "item_scale": 1.0,
-        "name_frame": true,
-        "item_frame": false,
-        "drop_item_frame": true,
-        "filled": true,
-        "filled_red": 39,
-        "filled_green": 36,
-        "filled_blue": 64,
-        "filled_alpha": 169,
+        "background": true,
         "outline": true,
-        "outline_red": 155,
-        "outline_green": 144,
-        "outline_blue": 255,
-        "outline_alpha": 240,
-        "outline_width": 2.0,
+        "background_alpha": 150,
         "margins": 2.0,
-        "corner_radius": 2.0,
-        "text_red": 232,
-        "text_green": 229,
-        "text_blue": 255,
-        "text_alpha": 255,
-        "custom_font": true,
         "y_offset": 0.5,
         "scale": 1.0,
         "distance_scale_factor": 0.0,
@@ -2064,9 +1932,9 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "relative": false,
-        "render_mode": "RADAR",
+        "render_mode": "BOTH",
         "grid_color": {
           "r": 255,
           "g": 0,
@@ -2118,7 +1986,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "distance": 3,
         "mode": "FALL",
         "fall": "PACKET",
@@ -2130,11 +1998,11 @@
       "name": "NoPacketKick",
       "settings": {
         "bind": "None",
-        "enabled": false,
+        "enabled": true,
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0
+        "clicks": 2
       }
     },
     {
@@ -2145,7 +2013,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 4,
+        "clicks": 0,
         "cancel_packets": true,
         "page": "OTHER",
         "mobs": false,
@@ -2162,18 +2030,38 @@
         "items": false,
         "crystals": false,
         "firework": false,
+        "armour_stands": false,
+        "helmet": true,
+        "chestplate": true,
+        "leggings": true,
+        "boots": true,
+        "hurt_camera": false,
+        "fire": false,
+        "water": false,
+        "blocks": false,
+        "portals": false,
+        "blindness": false,
+        "nausea": false,
+        "totems": false,
+        "vignette": false,
+        "pumpkin": false,
+        "tutorial": false,
+        "potion_icons": false,
         "maps": false,
         "explosions": true,
         "sign_text": false,
         "particles": true,
         "falling_blocks": true,
         "beacon_beams": true,
-        "all_lighting_updates": true,
+        "all_lighting_updates": false,
         "skylight_updates": true,
         "enchanting_books": true,
         "enchanting_table_snow": false,
         "projectiles": false,
-        "lightning": true
+        "lightning": true,
+        "fog": true,
+        "inventory": true,
+        "chat": false
       }
     },
     {
@@ -2259,12 +2147,123 @@
         "default": false,
         "priority_in_gui": 0,
         "clicks": 0,
-        "all": false,
-        "cpacket_input": true,
-        "cpacket_player": true,
-        "cpacket_entity_action": true,
-        "cpacket_use_entity": true,
-        "cpacket_vehicle_move": true
+        "side": "CLIENT",
+        "category": "PLAYER",
+        "cpacketanimation": false,
+        "cpacketuseentity": false,
+        "cpacketchatmessage": false,
+        "cpacketclickwindow": false,
+        "cpacketclient": false,
+        "cpacketclientstatus": false,
+        "cpacketclosewindow": false,
+        "cpacketconfirmteleport": false,
+        "cpacketconfirmtransaction": false,
+        "cpacketcreativeinventoryaction": false,
+        "cpacketcustompayload": false,
+        "cpacketenchantitem": false,
+        "cpacketentityaction": false,
+        "cpacketplayer": false,
+        "cpackethelditemchange": false,
+        "cpacketinput": false,
+        "cpacketplacerecipe": false,
+        "cpacketplayerabilities": false,
+        "cpacketplayertryuseitem": false,
+        "cpacketplayertryuseitemonblock": false,
+        "cpacketserverquery": false,
+        "cpacketloginstart": false,
+        "cpacketping": false,
+        "cpacketencryptionresponse": false,
+        "cpacketvehiclemove": false,
+        "cpacketupdatesign": false,
+        "cpackettabcomplete": false,
+        "cpacketsteerboat": false,
+        "cpacketspectate": false,
+        "cpacketseenadvancements": false,
+        "cpacketresourcepackstatus": false,
+        "cpacketrecipeinfo": false,
+        "cpacketplayerdigging": false,
+        "cpacketkeepalive": false,
+        "spacketentity.s17packetentitylookmove": false,
+        "spacketentity.s16packetentitylook": false,
+        "spacketentity.s15packetentityrelmove": false,
+        "spacketserverinfo": false,
+        "spacketloginsuccess": false,
+        "spacketworldborder": false,
+        "spacketwindowproperty": false,
+        "spacketwindowitems": false,
+        "spacketpong": false,
+        "spacketencryptionrequest": false,
+        "spacketenablecompression": false,
+        "spacketdisconnect": false,
+        "spacketusebed": false,
+        "spacketupdatetileentity": false,
+        "spacketupdatescore": false,
+        "spacketupdatehealth": false,
+        "spacketupdatebossinfo": false,
+        "spacketunloadchunk": false,
+        "spackettitle": false,
+        "spackettimeupdate": false,
+        "spacketteams": false,
+        "spackettabcomplete": false,
+        "spacketstatistics": false,
+        "spacketspawnposition": false,
+        "spacketspawnpainting": false,
+        "spacketspawnobject": false,
+        "spacketspawnplayer": false,
+        "spacketspawnmob": false,
+        "spacketspawnglobalentity": false,
+        "spacketspawnexperienceorb": false,
+        "spacketsoundeffect": false,
+        "spacketsigneditoropen": false,
+        "spacketsetslot": false,
+        "spacketsetexperience": false,
+        "spacketserverdifficulty": false,
+        "spacketselectadvancementstab": false,
+        "spacketscoreboardobjective": false,
+        "spacketrespawn": false,
+        "spacketresourcepacksend": false,
+        "spacketremoveentityeffect": false,
+        "spacketrecipebook": false,
+        "spacketplayerlistitem": false,
+        "spacketplayerlistheaderfooter": false,
+        "spacketplayerabilities": false,
+        "spacketplaceghostrecipe": false,
+        "spacketparticles": false,
+        "spacketopenwindow": false,
+        "spacketmultiblockchange": false,
+        "spacketmaps": false,
+        "spacketkeepalive": false,
+        "spacketjoingame": false,
+        "spackethelditemchange": false,
+        "spacketexplosion": false,
+        "spacketentityvelocity": false,
+        "spacketentityteleport": false,
+        "spacketentitystatus": false,
+        "spacketentityproperties": false,
+        "spacketentitymetadata": false,
+        "spacketentityheadlook": false,
+        "spacketentityequipment": false,
+        "spacketentityeffect": false,
+        "spacketentityattach": false,
+        "spacketeffect": false,
+        "spacketdisplayobjective": false,
+        "spacketdestroyentities": false,
+        "spacketcustomsound": false,
+        "spacketcustompayload": false,
+        "spacketcooldown": false,
+        "spacketconfirmtransaction": false,
+        "spacketcombatevent": false,
+        "spacketcollectitem": false,
+        "spacketclosewindow": false,
+        "spacketchunkdata": false,
+        "spacketchat": false,
+        "spacketchangegamestate": false,
+        "spacketcamera": false,
+        "spacketblockchange": false,
+        "spacketblockbreakanim": false,
+        "spacketblockaction": false,
+        "spacketanimation": false,
+        "spacketadvancementinfo": false
       }
     },
     {
@@ -2275,7 +2274,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "max_packets_long": 22.0,
         "long_term_ticks": 100,
         "max_packets_short": 25.0,
@@ -2291,7 +2290,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "show_client_ticks": true,
         "log_in_chat": false,
         "capture_timing": "POST",
@@ -2311,8 +2310,20 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 1,
         "delay": 100
+      }
+    },
+    {
+      "name": "Plugins",
+      "settings": {
+        "bind": "None",
+        "enabled": true,
+        "visible": false,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 1,
+        "github_token": ""
       }
     },
     {
@@ -2323,7 +2334,7 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
+        "clicks": 0
       }
     },
     {
@@ -2334,22 +2345,8 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
-        "instant_teleport": true
-      }
-    },
-    {
-      "name": "RemoteCommand",
-      "settings": {
-        "bind": "None",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
         "clicks": 1,
-        "allow": "FRIENDS",
-        "repeat_all": false,
-        "custom": "unchanged"
+        "instant_teleport": true
       }
     },
     {
@@ -2360,7 +2357,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "check_fall_distance": true
       }
     },
@@ -2368,18 +2365,18 @@
       "name": "Scaffold",
       "settings": {
         "bind": "Z",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 20,
+        "clicks": 19,
         "tower": false,
         "spoof_hotbar": false,
         "safe_walk": true,
         "sneak": false,
         "strict_direction": false,
-        "delay": 4,
-        "max_range": 3
+        "delay": 1,
+        "max_range": 2
       }
     },
     {
@@ -2393,14 +2390,19 @@
         "clicks": 0,
         "update_delay": 1000,
         "search_range": 128,
+        "top_y": 256,
+        "bottom_y": 0,
         "maximum_blocks": 256,
         "filled": true,
         "outline": true,
         "tracer": true,
         "custom_colors": false,
-        "red": 155,
-        "green": 144,
-        "blue": 255,
+        "custom_color": {
+          "r": 155,
+          "g": 144,
+          "b": 255,
+          "a": 255
+        },
         "filled_alpha": 31,
         "outline_alpha": 127,
         "tracer_alpha": 200,
@@ -2421,49 +2423,22 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "block": true,
         "entity": false,
         "hit_side_only": false,
         "through_blocks": false,
         "filled": true,
         "outline": true,
-        "red": 155,
-        "green": 144,
-        "blue": 255,
+        "color": {
+          "r": 155,
+          "g": 144,
+          "b": 255,
+          "a": 255
+        },
         "filled_alpha": 63,
         "outline_alpha": 200,
         "line_thickness": 2.0
-      }
-    },
-    {
-      "name": "ShulkerPreview",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 1,
-        "use_custom_font": false,
-        "background_color": {
-          "r": 16,
-          "g": 0,
-          "b": 16,
-          "a": 190
-        },
-        "top_border_color": {
-          "r": 144,
-          "g": 101,
-          "b": 237,
-          "a": 54
-        },
-        "bottom_border_color": {
-          "r": 40,
-          "g": 0,
-          "b": 127,
-          "a": 80
-        }
       }
     },
     {
@@ -2474,7 +2449,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "mode": "HORIZONTAL",
         "delay": 10
       }
@@ -2495,6 +2470,28 @@
       }
     },
     {
+      "name": "Speed",
+      "settings": {
+        "bind": "None",
+        "enabled": false,
+        "visible": true,
+        "default": false,
+        "priority_in_gui": 0,
+        "clicks": 3,
+        "mode": "STRAFE",
+        "air_speed_boost": 0.029,
+        "timer_boost": true,
+        "auto_jump": true,
+        "on_holding_sprint": false,
+        "cancel_inertia": false,
+        "timer": true,
+        "timer_speed": 1.29,
+        "speed": 1.31,
+        "sprint": true,
+        "smart_mode": true
+      }
+    },
+    {
       "name": "Sprint",
       "settings": {
         "bind": "None",
@@ -2502,7 +2499,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "multi_direction": true,
         "instant": false,
         "check_flying": true,
@@ -2518,7 +2515,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 3,
         "save_to_waypoints": true,
         "log_to_chat": true,
         "play_sound": true,
@@ -2563,7 +2560,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 13,
+        "clicks": 4,
         "page": "TYPE",
         "chest": true,
         "shulker": true,
@@ -2592,28 +2589,6 @@
       }
     },
     {
-      "name": "Strafe",
-      "settings": {
-        "bind": "R",
-        "enabled": false,
-        "visible": true,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 13,
-        "mode": "NCP",
-        "page": "MODE_SETTINGS",
-        "air_speed_boost": true,
-        "ground_speed_boost": true,
-        "timer_boost": true,
-        "auto_jump": true,
-        "on_holding_sprint": false,
-        "cancel_inertia": false,
-        "ncp_strict": false,
-        "speed": 0.28,
-        "constant_speed": false
-      }
-    },
-    {
       "name": "Surround",
       "settings": {
         "bind": "X",
@@ -2621,7 +2596,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 303,
+        "clicks": 39,
         "places_per_tick": 4.0,
         "disable_strafe": true,
         "strict_direction": false,
@@ -2633,31 +2608,19 @@
       }
     },
     {
-      "name": "TabFriends",
-      "settings": {
-        "bind": "None",
-        "enabled": true,
-        "visible": false,
-        "default": false,
-        "priority_in_gui": 0,
-        "clicks": 2,
-        "color": "GREEN"
-      }
-    },
-    {
       "name": "TeleportLogger",
       "settings": {
         "bind": "None",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 1,
         "save_to_waypoints": true,
         "remove_in_range": true,
         "print_add": true,
         "print_remove": true,
-        "minimum_distance": 512
+        "minimum_distance": 384
       }
     },
     {
@@ -2693,7 +2656,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 0,
         "count_friends": true,
         "count_self": true,
         "announce": "CLIENT",
@@ -2717,11 +2680,11 @@
       "name": "Tracers",
       "settings": {
         "bind": "None",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 1,
         "page": "ENTITY_TYPE",
         "players": true,
         "friends": true,
@@ -2781,16 +2744,19 @@
       "name": "Trajectories",
       "settings": {
         "bind": "None",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 1,
         "show_entity": true,
         "show_block": false,
-        "red": 255,
-        "green": 255,
-        "blue": 255,
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
         "filled_alpha": 127,
         "outline_alpha": 255,
         "thickness": 2.0
@@ -2804,7 +2770,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 3,
+        "clicks": 1,
         "horizontal": 0.0,
         "vertical": 0.0,
         "no_push": true,
@@ -2820,7 +2786,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 2,
         "page": "YAW",
         "yaw": true,
         "auto_yaw": true,
@@ -2838,7 +2804,7 @@
       "name": "VisualRange",
       "settings": {
         "bind": "None",
-        "enabled": false,
+        "enabled": true,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
@@ -2849,7 +2815,9 @@
         "uwu_aura": false,
         "log_to_file": false,
         "enter_message": "$NAME spotted!",
-        "leave_message": "$NAME left!"
+        "leave_message": "$NAME left!",
+        "public_message_on_enter": false,
+        "public_enter_message": "Hello $NAME"
       }
     },
     {
@@ -2860,7 +2828,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 2,
         "filled": true,
         "outline": true,
         "color": {
@@ -2872,7 +2840,8 @@
         "filled_alpha": 127,
         "outline_alpha": 255,
         "mode": "BLOCK_HOLE",
-        "range": 8
+        "range": 8,
+        "show_safe_void": false
       }
     },
     {
@@ -2883,7 +2852,7 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1,
+        "clicks": 0,
         "mode": "BOTH",
         "page": "INFO_BOX",
         "dimension": "CURRENT",
@@ -2919,18 +2888,18 @@
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 1
+        "clicks": 0
       }
     },
     {
       "name": "Xray",
       "settings": {
-        "bind": "None",
+        "bind": "O",
         "enabled": false,
         "visible": true,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 0,
+        "clicks": 27,
         "visible_list": [
           "minecraft:diamond_ore",
           "minecraft:iron_ore",
@@ -2948,7 +2917,7 @@
         "visible": false,
         "default": false,
         "priority_in_gui": 0,
-        "clicks": 2,
+        "clicks": 0,
         "fov": 7.0,
         "modify_sensitivity": true,
         "sensitivity_multiplier": 1.0,
