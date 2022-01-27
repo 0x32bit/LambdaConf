@@ -1,2 +1,2 @@
-# Kamiblueconf
-My configuration kami blue client.
+# Lambda Conf
+My configuration Lambda Minecraft Client.
