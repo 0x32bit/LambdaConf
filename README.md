@@ -1,9 +1,9 @@
 <p align="center">
-# Lambda Conf
 A Lambda Config client by yuuto.
-
-Clone this repo
+</p>
+<details open>
+<summary><strong>Clone This Repo</strong></summary>
 ```sh
 git clone https://github.com/yuutonuko/LambdaConf
-```
-</p>
+```  
+</details>
