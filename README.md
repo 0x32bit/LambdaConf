@@ -1,5 +1,5 @@
-# Lambda Conf
 <p align="center">
+# Lambda Conf
 A Lambda Config client by yuuto.
 
 Clone this repo
