@@ -5,7 +5,7 @@ A Lambda Config client by 0X32.
 <summary><strong>Clone This Repo</strong></summary>
   
 ```sh
-git clone https://github.com/yuutonuko/LambdaConf
+git clone https://github.com/0X32bit/LambdaConf
 ```  
   
 </details>
